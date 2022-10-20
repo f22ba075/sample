@@ -1,1 +1,64 @@
-hello world
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>テキストにスタイル設定</title>
+    <style>
+        /*これはCSSのコメントです*/
+        /*コメントください*/
+        /*コメント確定*/
+        h1 {
+            font-size: 2.5em;
+            font-family: cursive;
+            color: rgb(255, 0, 0);
+        }
+        h2{
+            font-size: 2.0em;
+            font-family: fantasy;
+            color: rgb(21, 0, 255);
+        }
+        P{
+            font-size: 1.2em;
+            font-family: sans-serif;
+            color: rgb(255, 183, 0);
+        }
+        span{
+            font:bold italic 1.7em serif;
+            background-color: magenta;
+            color:white
+        }
+        h3{
+            /*importantはタグ直書きより強い*/
+            color: wheat !important;
+            font-size: 200%;
+            font-family: fantasy ;
+       
+            
+        }
+        #ketuanakakutei{
+            color: rgb(50, 250, 0);
+        }
+        h4{
+            background-color: black;
+        }
+        .shiro{
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+<h1>onakasuita</h1>
+<h1 id="ketuanakakutei">kusonemuidesu</h1>
+<h2>maruitinitineteitai</h2>
+<P>this is <span>sample</span>
+<h3>konntikuwa</h3>
+<h3 style="color: #0f0;; font-size : 300%;">おためし</h3>
+<h4>1</h4>
+<h4 class="shiro">2</h4>
+<h4 class="shiro">3</h4>
+<h4 class="shiro">4</h4>
+</body>
+</html>
